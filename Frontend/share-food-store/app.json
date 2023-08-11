@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "share-food-store",
+    "slug": "share-food-store",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/b5685026-9110-478b-8a24-c615e8ea1e25"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dangtu2001.sharefoodstore",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCoU0VSE5Nq0kqyLgsv5AOHO-WFMSAiD_8"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME_STORE) to use your location."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b5685026-9110-478b-8a24-c615e8ea1e25"
+      }
+    },
+    "owner": "dangtu2001",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
